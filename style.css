@@ -1,5 +1,98 @@
-*{
-   padding: 0;
+* {
    margin: 0;
+   padding: 0;
    box-sizing: border-box;
-}
+   font-family: Arial, sans-serif;
+ }
+
+ .nav {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: #222E32;
+   padding: 1rem 2rem;
+ }
+
+ .nav h1 {
+   color: white;
+   font-size: x-large;
+ }
+
+ .nav ul {
+   list-style: none;
+   display: flex;
+   gap: 2rem;
+  
+ }
+
+ .nav li {
+   color: white;
+   font-size: 1rem;
+   cursor: pointer;
+   padding-right: 4rem;
+ }
+
+ .nav li:hover {
+   color: #ffd700;
+ }
+ .img-section {
+   position: relative;
+   width: 100%;
+   height: 100vh;
+   background: url('https://images.pexels.com/photos/7736158/pexels-photo-7736158.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2') no-repeat center center;
+   background-size: cover;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0 5%;
+ }
+
+ .text-section {
+   background-color: blue;
+   color: white;
+   padding: 2rem;
+   border-radius: 10px;
+   max-width: 60%;
+ }
+
+ .text-section h2 {
+   margin-bottom: 1rem;
+   font-size: xx-large;
+   font-weight: bolder;
+   letter-spacing: 18px;
+ }
+
+ .form-section {
+   background-color: rgba(0, 0, 0, 0.5);
+   padding: 2rem;
+   border-radius: 10px;
+   max-width: 40%;
+   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+ }
+
+ label {
+   display: block;
+   margin-bottom: 0.5rem;
+   color: #333;
+ }
+
+ input, textarea, button {
+   width: 100%;
+   color: white;
+   padding: 0.75rem;
+   margin-bottom: 1rem;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+ }
+
+ button {
+   background-color: #007bff;
+   color: white;
+   border: none;
+   cursor: pointer;
+   transition: background-color 0.3s;
+ }
+
+ button:hover {
+   background-color: #0056b3;
+ }
